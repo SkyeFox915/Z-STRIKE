@@ -22,7 +22,7 @@ if(cfg.alerta)$('#top').innerHTML='<i class="dot"></i>'+esc(cfg.alerta);
 const tick=()=>{
  const s=Math.floor((T-Date.now())/1e3);
  if(s<=0){cd.innerHTML=`<p class="go">${esc(C.textoFin||'Transmisión en curso')}</p>`;return false}
- ['XX','XX','XX','XX'].forEach((v,i)=>$('#cd-'+'dhms'[i]).textContent=v);
+ ['X','X','X','X'].forEach((v,i)=>$('#cd-'+'dhms'[i]).textContent=v);
 if(C.fecha&&!isNaN(T)){$('#cd-l').textContent=C.etiqueta||'';$('#cdw').hidden=false;if(tick()){const iv=setInterval(()=>tick()||clearInterval(iv),1e3)}}
 $('#arch').innerHTML=list.map(m=>`<a class="card it" href="#boletin-${esc(m.id)}"><b>${num(m.id)}</b><span>${esc(m.titulo)}<small>${fmt(m.fecha)}${m.resumen?' · '+esc(m.resumen):''}</small></span></a>`).join('')||'<p class="sub">Aún no hay boletines.</p>';
 const an=cfg.anuncios||[];
