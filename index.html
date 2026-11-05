@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Z-STRIKE · Boletín oficial</title>
+<meta name="description" content="Boletín oficial de Z-STRIKE, videojuego de Roblox de disparos y supervivencia contra zombies.">
+<meta name="theme-color" content="#090b07">
+<meta property="og:title" content="Z-STRIKE · Boletín oficial">
+<meta property="og:description" content="Transmisiones y avances del desarrollo de Z-STRIKE.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🪖%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="#inicio">Z<b>-</b>STRIKE</a>
+<nav aria-label="Secciones"><a href="#boletin">Boletín</a><a href="#archivo">Archivo</a><a href="#proximos" id="nav-p" hidden>Próximos</a><a href="#info">Info</a></nav></div></header>
+<div id="top" role="alert"></div>
+<main>
+<section class="hero" id="inicio">
+<p class="sub">Boletín oficial de desarrollo</p>
+<h1>Z<span>-</span>STRIKE</h1>
+<p class="sub">Disparos y supervivencia contra zombies · Roblox</p>
+<div id="cdw" hidden><p class="sub" id="cd-l"></p>
+<div class="cd" id="cd" role="timer" aria-labelledby="cd-l"><div><b id="cd-d">00</b><small>Días</small></div><div><b id="cd-h">00</b><small>Horas</small></div><div><b id="cd-m">00</b><small>Minutos</small></div><div><b id="cd-s">00</b><small>Segundos</small></div></div></div>
+<a class="btn" href="#boletin">Leer último boletín</a><a class="btn o" href="#archivo">Ver archivo</a>
+</section>
+<section id="boletin"><h2 id="b-h">Último boletín</h2><article class="doc" id="b" aria-live="polite">Recibiendo transmisión…</article></section>
+<section id="archivo"><h2>Archivo de boletines</h2><div id="arch"></div></section>
+<section id="proximos" hidden><h2>Próximos anuncios</h2><ol class="pl" id="prox"></ol></section>
+<section id="info"><h2>Sobre Z-STRIKE</h2><p class="lead" id="desc"></p><dl class="k-d" id="datos"></dl><p id="links"></p><p class="sub" id="nota"></p></section>
+</main>
+<footer>Z-STRIKE · Boletín oficial de desarrollo</footer>
+<noscript><p class="sub" style="padding:16px">Activa JavaScript para leer los boletines.</p></noscript>
+<script src="assets/app.js"></script>
+</body>
+</html>

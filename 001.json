@@ -1,0 +1,14 @@
+{"bloques": [
+  {"tipo": "alerta", "texto": "Transmisión de emergencia · Todas las frecuencias"},
+  {"tipo": "transmision", "lineas": [
+    "Aquí el Mando de Emergencia. Repetimos: aquí el Mando de Emergencia.",
+    "Se ha detectado una infección de origen desconocido.",
+    "Se está extendiendo por el mundo de Z-STRIKE.",
+    "Si recibe esta señal: manténgase alerta y no confíe en el silencio."
+  ]},
+  {"tipo": "datos", "items": [["Origen", "DESCONOCIDO"], ["Estado", "EN EXPANSIÓN"], ["Amenaza", "CRÍTICA"], ["Señal", "INESTABLE"]]},
+  {"tipo": "clasificado", "titulo": "Informe ██-001 · Acceso restringido", "texto": "ASUNTO: ██████████ · ORIGEN: ██████ · ESTADO: ███████ · Contenido eliminado por orden superior. Acceso denegado."},
+  {"tipo": "parrafo", "texto": "La infección ha comenzado. Mantenga esta frecuencia abierta: habrá nuevas transmisiones."},
+  {"tipo": "alerta", "texto": "Alerta roja · Infección en curso"},
+  {"tipo": "fin", "texto": "FIN DE TRANSMISIÓN"}
+]}

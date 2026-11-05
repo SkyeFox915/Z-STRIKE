@@ -1,0 +1,28 @@
+{
+  "alerta": "Alerta roja · Infección desconocida en expansión",
+  "contador": {
+    "fecha": "2026-12-24T00:00:00",
+    "etiqueta": "Cuenta regresiva para el lanzamiento de Z-STRIKE",
+    "textoFin": "Transmisión en curso"
+  },
+  "info": {
+    "descripcion": "Z-STRIKE es un videojuego de Roblox de disparos y supervivencia contra zombies.",
+    "datos": [
+      [
+        "Género",
+        "Disparos y supervivencia"
+      ],
+      [
+        "Enemigos",
+        "Zombies"
+      ],
+      [
+        "Plataforma",
+        "Roblox"
+      ]
+    ],
+    "nota": "Más información se irá añadiendo en los próximos boletines."
+  },
+  "enlaces": [],
+  "anuncios": []
+}
