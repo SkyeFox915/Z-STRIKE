@@ -1,0 +1,41 @@
+{"bloques": [
+  {"tipo": "alerta", "texto": "Actualización de emergencia · Alcance internacional"},
+  {"tipo": "transmision", "lineas": [
+    "Aquí el Mando de Emergencia. A todos los que siguen esta frecuencia: actualización de la situación.",
+    "Los primeros informes hablaban de un incidente aislado. Retiramos esa palabra.",
+    "Se han confirmado nuevos brotes en varios países. Los focos más recientes aparecen más lejos y más rápido de lo que cualquier modelo permitía prever."
+  ]},
+  {"tipo": "titulo", "texto": "Los focos se multiplican"},
+  {"tipo": "datos", "items": [
+    ["Focos activos hace 72 h", "03"],
+    ["Focos activos hace 24 h", "11"],
+    ["Focos activos ahora", "██ · CIFRA RETENIDA"],
+    ["Origen", "AÚN DESCONOCIDO"]
+  ]},
+  {"tipo": "titulo", "texto": "Informe de focos"},
+  {"tipo": "datos", "items": [
+    ["Foco 07 · ██████ (hemisferio norte)", "CUARENTENA"],
+    ["Foco 11 · Ciudad costera ████████", "CONTACTO PERDIDO"],
+    ["Foco 14 · Paso fronterizo ██████", "CERRADO"],
+    ["Foco 19 · Capital regional ███████", "SIN RESPUESTA"],
+    ["Foco 23 · ██████ (hemisferio sur)", "EN EXPANSIÓN"]
+  ]},
+  {"tipo": "titulo", "texto": "Cuarentena y silencio"},
+  {"tipo": "parrafo", "texto": "Se han declarado zonas de cuarentena en todas las regiones afectadas. Varias ciudades han dejado de responder a llamadas, radios y señales de emergencia. En cada foco confirmado ocurre lo mismo: primero cae la señal, después la ciudad."},
+  {"tipo": "transmision", "lineas": [
+    "ÚLTIMO MENSAJE RECIBIDO · PUESTO DE CONTROL ██",
+    "«Hemos perdido el contacto con la ciudad. No hay respuesta en ninguna frecuencia. Repito: no hay respuesta.»",
+    "«Estamos sellando los accesos. Si alguien recibe esto, no envíen…»",
+    "[SEÑAL INTERRUMPIDA]"
+  ]},
+  {"tipo": "titulo", "texto": "Despliegue militar"},
+  {"tipo": "parrafo", "texto": "Fuerzas militares han sido desplegadas en las zonas afectadas con una misión: contener, aislar y proteger a la población civil. Se han establecido perímetros alrededor de los focos confirmados."},
+  {"tipo": "clasificado", "titulo": "Orden de despliegue ██-07 · Acceso restringido", "texto": "OBJETIVO: establecer perímetro y mantener posición. INSTRUCCIÓN: no abandonar el puesto sin autorización del Mando. UNIDAD ██: sin contacto desde las ██:██. Última posición conocida: ██████. Se solicita refuerzo."},
+  {"tipo": "alerta", "texto": "Alerta roja · Propagación acelerada"},
+  {"tipo": "transmision", "lineas": [
+    "Esto es solo el comienzo.",
+    "Lo que ha ocurrido hasta ahora no es la amenaza. Es el aviso.",
+    "Y todavía no entendemos de qué nos está avisando."
+  ]},
+  {"tipo": "fin", "texto": "FIN DE TRANSMISIÓN · NO ABANDONE ESTA FRECUENCIA"}
+]}
